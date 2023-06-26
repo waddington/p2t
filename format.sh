@@ -28,6 +28,7 @@ function ocr() {
 		rm currentPage.tif
 		rm $filename.tif
 		rm pageConverted.txt
+		cd -
 	done
 
 	echo "Done."
